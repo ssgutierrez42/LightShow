@@ -12,7 +12,27 @@
 		8E7CA2BD229A459D004DB8BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E7CA2BB229A459D004DB8BF /* Main.storyboard */; };
 		8E7CA2BF229A459E004DB8BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E7CA2BE229A459E004DB8BF /* Assets.xcassets */; };
 		8E7CA2C2229A459E004DB8BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E7CA2C0229A459E004DB8BF /* LaunchScreen.storyboard */; };
+		8E7CA2D0229A45EB004DB8BF /* AudioKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E7CA2CF229A45EB004DB8BF /* AudioKit.framework */; };
+		8E7CA2D1229A45EB004DB8BF /* AudioKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8E7CA2CF229A45EB004DB8BF /* AudioKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8E7CA2D4229A47D0004DB8BF /* AudioKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E7CA2D3229A47D0004DB8BF /* AudioKitUI.framework */; };
+		8E7CA2D5229A47D0004DB8BF /* AudioKitUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8E7CA2D3229A47D0004DB8BF /* AudioKitUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8E7CA2D7229A4AF0004DB8BF /* TempoListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7CA2D6229A4AF0004DB8BF /* TempoListener.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8E7CA2D2229A45EB004DB8BF /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8E7CA2D5229A47D0004DB8BF /* AudioKitUI.framework in Embed Frameworks */,
+				8E7CA2D1229A45EB004DB8BF /* AudioKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		8E7CA2B4229A459D004DB8BF /* LightShowBeta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LightShowBeta.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,6 +42,9 @@
 		8E7CA2BE229A459E004DB8BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E7CA2C1229A459E004DB8BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E7CA2C3229A459E004DB8BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E7CA2CF229A45EB004DB8BF /* AudioKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AudioKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E7CA2D3229A47D0004DB8BF /* AudioKitUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AudioKitUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E7CA2D6229A4AF0004DB8BF /* TempoListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempoListener.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +52,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E7CA2D4229A47D0004DB8BF /* AudioKitUI.framework in Frameworks */,
+				8E7CA2D0229A45EB004DB8BF /* AudioKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +63,8 @@
 		8E7CA2AB229A459D004DB8BF = {
 			isa = PBXGroup;
 			children = (
+				8E7CA2D3229A47D0004DB8BF /* AudioKitUI.framework */,
+				8E7CA2CF229A45EB004DB8BF /* AudioKit.framework */,
 				8E7CA2B6229A459D004DB8BF /* LightShowBeta */,
 				8E7CA2B5229A459D004DB8BF /* Products */,
 			);
@@ -60,6 +87,7 @@
 				8E7CA2BE229A459E004DB8BF /* Assets.xcassets */,
 				8E7CA2C0229A459E004DB8BF /* LaunchScreen.storyboard */,
 				8E7CA2C3229A459E004DB8BF /* Info.plist */,
+				8E7CA2D6229A4AF0004DB8BF /* TempoListener.swift */,
 			);
 			path = LightShowBeta;
 			sourceTree = "<group>";
@@ -74,6 +102,7 @@
 				8E7CA2B0229A459D004DB8BF /* Sources */,
 				8E7CA2B1229A459D004DB8BF /* Frameworks */,
 				8E7CA2B2229A459D004DB8BF /* Resources */,
+				8E7CA2D2229A45EB004DB8BF /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -136,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E7CA2BA229A459D004DB8BF /* ViewController.swift in Sources */,
+				8E7CA2D7229A4AF0004DB8BF /* TempoListener.swift in Sources */,
 				8E7CA2B8229A459D004DB8BF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,10 +315,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F7K5P4SPBK;
 				INFOPLIST_FILE = LightShowBeta/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-lc++";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.santi-ago.LightShowBeta";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -303,10 +335,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F7K5P4SPBK;
 				INFOPLIST_FILE = LightShowBeta/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-lc++";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.santi-ago.LightShowBeta";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

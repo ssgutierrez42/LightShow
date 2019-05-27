@@ -5,6 +5,71 @@
 	<key>logFormatVersion</key>
 	<integer>10</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>58578BD7-EBE0-49ED-8B62-7A77DD1F5251</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>58578BD7-EBE0-49ED-8B62-7A77DD1F5251.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>LightShowBeta project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>LightShowBeta</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build LightShowBeta</string>
+			<key>timeStartedRecording</key>
+			<real>580540653.61500704</real>
+			<key>timeStoppedRecording</key>
+			<real>580540657.12985694</real>
+			<key>title</key>
+			<string>Build LightShowBeta</string>
+			<key>uniqueIdentifier</key>
+			<string>58578BD7-EBE0-49ED-8B62-7A77DD1F5251</string>
+		</dict>
+		<key>AAFC8F0E-964B-4E28-9DB3-4D9052E11AC6</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>AAFC8F0E-964B-4E28-9DB3-4D9052E11AC6.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>LightShowBeta project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>LightShowBeta</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build LightShowBeta</string>
+			<key>timeStartedRecording</key>
+			<real>580623466.09675801</real>
+			<key>timeStoppedRecording</key>
+			<real>580623466.351753</real>
+			<key>title</key>
+			<string>Build LightShowBeta</string>
+			<key>uniqueIdentifier</key>
+			<string>AAFC8F0E-964B-4E28-9DB3-4D9052E11AC6</string>
+		</dict>
+	</dict>
 </dict>
 </plist>
